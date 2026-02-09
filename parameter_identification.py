@@ -1,6 +1,7 @@
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 #Input Parameters all in code units
 #In all outputs, assume G and c are equal to 1
 
@@ -70,9 +71,9 @@ def GW_timescale(a,mass,q):
     return tau
 M1 = 1
 M2 = 10**(-3)
-HR = 0.03
-alpha = 0.005
-a = decoupling(massratio(M1,M2), HR, M1, alpha) #code units for seperation
+HR = 0.01
+alpha = 0.001
+a = 4.75 #code units for seperation
 R_p_in = 3*M1
 R_s_in = 3*M2
 
@@ -94,3 +95,15 @@ df = pd.DataFrame(timescaledataset, index = index_labels)
 print(df)
 
 print(table)
+
+sep = np.arange(1,200)
+
+
+plt.plot(sep, visc_timescale(alpha, HR,M1,sep) ,color='red',label = 'Viscous timescale')
+plt.plot(sep, GW_timescale(sep,M1,massratio(M1,M2)), color = 'green', label = 'GW timescale')
+plt.xlim(200,20)
+plt.ylabel("timescale")
+plt.xlabel("seperation (GM/$c^2$)")
+plt.legend()
+plt.savefig("Decoupling_Sep.png")
+plt.show()
