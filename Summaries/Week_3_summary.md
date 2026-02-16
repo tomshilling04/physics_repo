@@ -24,4 +24,5 @@ This shows a much better relation than in previous weeks. An issue with my code 
 Before meeting:  
 Rerun sim and with a different disc mass parameter and also a different beta parameter (disc viscosity).  
 Plot this new data into the accretion rate functions already made.  
-Work on Surface density code and see if need to ask Chris about equations.
+Work on Surface density code and see if need to ask Chris about equations.  
+Go through notes on thesis.
