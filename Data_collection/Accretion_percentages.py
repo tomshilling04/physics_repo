@@ -13,14 +13,20 @@ def discmass(filename,Mdisc):
 
 def percentagemass(filename,Mdisc):
     """
+    inputs:
+        filename: 
+        
+        
+        
     """
     file = np.loadtxt(filename)
     mass_acc1 = file[:,20]
     mass_acc2 = file[:,21]
-    finalmacc1 = mass_acc1[len(mass_acc1)-1:]
-    finalmacc2 = mass_acc2[len(mass_acc2)-1:]
-    totalmass = discmass(filename,Mdisc)[len(mass_acc1)-1:]
-    return str(finalmacc1), str(finalmacc2), str(totalmass)
+    finalmacc1 = mass_acc1[len(mass_acc1)-1] * 100  #Removed the colon and then that returned a float as this is no longer a slice
+    finalmacc2 = mass_acc2[len(mass_acc2)-1] * 100
+    totalmass = discmass(filename,Mdisc)[len(mass_acc1)-1] * 100
+    
+    return finalmacc1, finalmacc2, totalmass
 
 percentmacc1 = percentagemass("C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Cer_resol500thous/gwdisc01_cer500.ev",1)[0]
 
