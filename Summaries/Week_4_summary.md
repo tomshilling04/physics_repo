@@ -7,6 +7,7 @@ Ran simulation again with beta and disc mass changed to 0 and 1 respectively. Th
 ![Cumalative accreted mass when the beta was set to 0](../Week4/Cerioli_retry_no_visc/Accreted_mass_across_time_Cer_visc\=0.png)  
 This shows a very similar trend to our previous result when beta was non zero (2). However there is a large spike at the end of the primary 
 accreted mass gradient. This would be our snowplough effect. This becomes more apparent when we look at our accretion rate graph.  
+Better graph produced on Jupyter notebook, show that one instead if interested.
 
 ### Accretion rate over time
 
@@ -72,7 +73,15 @@ Expelled mass: 0.0213%
 
 
 
+## Surface Density  
+The surface density graphs are struggling due to my beta value being greater than my initial separation. This is because of a unit error I believe and unsure how to fix it.  
+I also noticed that the mass of the circumprimary is equal to the mass of the priamry black hole in my calculations of the surface density. This is not wanted and unsure how to fix as the disc.setup won't let me change the primary mass.  
 
+
+
+## What to talk about  
+I don't know how to fix my surface density.  
+I am noticing my thesis is very similar to the Lodato paper and want to do more to improve mine. What can I do to stand out?
 
 
 
