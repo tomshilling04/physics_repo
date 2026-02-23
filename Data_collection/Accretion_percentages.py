@@ -27,11 +27,11 @@ def percentagemass(filename,Mdisc):
     totalmass = discmass(filename,Mdisc)[len(mass_acc1)-1] * 100
     
     return finalmacc1, finalmacc2, totalmass
+file = "C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Ret_resol1mill/gwdisc01_ret1mill.ev"
+percentmacc1 = percentagemass(file,1)[0]
 
-percentmacc1 = percentagemass("C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Cer_resol500thous/gwdisc01_cer500.ev",1)[0]
-
-percentmacc2 = percentagemass("C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Cer_resol500thous/gwdisc01_cer500.ev",1)[1]
-percentdisc = percentagemass("C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Cer_resol500thous/gwdisc01_cer500.ev",1)[2]
+percentmacc2 = percentagemass(file,1)[1]
+percentdisc = percentagemass(file,1)[2]
 
 
 
