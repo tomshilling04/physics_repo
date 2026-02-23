@@ -71,7 +71,10 @@ Primary accreted mass: 39.999%
 Secondary accreted mass: 59.9797%  
 Expelled mass: 0.0213%  
 
+### Resolution of 2 million 
 
+#### Prograde Disc 
+![Prograde accretion rate graph for 2 million particles]
 
 ## Surface Density  
 The surface density graphs are struggling due to my beta value being greater than my initial separation. This is because of a unit error I believe and unsure how to fix it.  
@@ -81,7 +84,17 @@ I also noticed that the mass of the circumprimary is equal to the mass of the pr
 
 ## What to talk about  
 I don't know how to fix my surface density.  
-I am noticing my thesis is very similar to the Lodato paper and want to do more to improve mine. What can I do to stand out?
+I am noticing my thesis is very similar to the Lodato paper and want to do more to improve mine. What can I do to stand out? 
+
+### Ideas to talk about  
+In order to not recreate the Lodato paper, here were a few ideas I thought about that was not included in the paper:  
+* I can run some sims with inclination close to retrograde?
+* Make new calculations not done in the paper (Efficiency of the snowplough effect)
+* More dynamic analysis? (Where most the mass stays during the evolution of the merger)
+* Angular momentum analysis maybe?
+* What are the recommended papers I can read to find more information
+
+
 
 
 
