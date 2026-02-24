@@ -45,8 +45,9 @@ def seperation(M1,M2,a0,t):
     changes.
 
     """
-    c = 3*10**8
-    G = 6.67*(10**(-11))
+    #c = 3*10**8
+    c = G =1
+    #G = 6.67*(10**(-11))
     beta = (64/5)*(((G**3)*M1*M2*(M1+M2))/(c**5))
     a = (a0**4 - (4*beta*t))**(1/4)
       
@@ -84,27 +85,46 @@ def SurfaceDensity(filename,M1, M2,initial_R_out, a0, R_in, N, Mdisc):
         
         refsigma = Sigma_0(initial_R_out,R_in,1.5,Mdisc - totmacc[N])
         SurfDens = refsigma*((R/R_in)**(-1.5))
-        return R, SurfDens
+        return SurfDens, R
     elif a<= initial_R_out:
         
         refsigma = Sigma_0(a, R_in,1.5,Mdisc - totmacc[N])
         SurfDens = refsigma*((R/R_in)**1.5)
-        return R, SurfDens
+        return SurfDens, R
     
 def TimePoint(filename, N):
     """
     Inputs: 
-        filename : Reading this file in order to find the 
+        filename : Reading this file in order to find the time point I am using
     """
     file = np.loadtxt(filename)
     time = file[:,0]
     return time[N]
 
+file = "C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Retrograde_resol2mill/gwdisc01_ret2mill.ev"
 
-        
+SurfDens, R = SurfaceDensity(file, 1, 0.001, 4.1, 4.75, 2, 400, 1)
+  
+def kepler_angmom(M,R):
+    """
+    M = mass of the object matter orbits
+    R = radius of the separation between central object and orbiting object
+    """
+    omega = (M/(R**3))**(1/2)
+    return omega   
     
-    
-    
-    
-    
+def Height(R,HoverR):
+    """
+    """
+    H = R * HoverR
+    return H
+
+def kinematic_visc(R,M,HoverR,alpha):
+    """
+    """
+    H = Height(R, HoverR)
+    Omega = kepler_angmom(M, R)
+    v = alpha*H*Omega
+    return v
+
     
