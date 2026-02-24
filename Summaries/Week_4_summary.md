@@ -7,7 +7,9 @@ Ran simulation again with beta and disc mass changed to 0 and 1 respectively. Th
 ![Cumalative accreted mass when the beta was set to 0](../Week4/Cerioli_retry_no_visc/Accreted_mass_across_time_Cer_visc\=0.png)  
 This shows a very similar trend to our previous result when beta was non zero (2). However there is a large spike at the end of the primary 
 accreted mass gradient. This would be our snowplough effect. This becomes more apparent when we look at our accretion rate graph.  
-Better graph produced on Jupyter notebook, show that one instead if interested.
+Better graph made for 2 million particles for the prograde case.  
+![Cumulated accreted mass for the prograde in 2 mill sim](../Week4/Cerioli_resol2mill/GW_Accreted_mass_across_time_Cerioli_2mill.png)  
+Now added a total mass of disc line.
 
 ### Accretion rate over time
 
@@ -74,7 +76,20 @@ Expelled mass: 0.0213%
 ### Resolution of 2 million 
 
 #### Prograde Disc 
-![Prograde accretion rate graph for 2 million particles]
+![Prograde accretion rate graph for 2 million particles](../Week4/Cerioli_resol2mill/Accretion_rate_across_time_Cer_resol2mill.png)  
+Much larger spike and more visible second spike. This makes sense due to just more particles.  
+The percentage of mass from the disc at the last timestep is as follows:  
+* Primary accreted mass: 60.0391%
+* Secondary accreted mass: 35.98485%
+* Expelled mass: 3.97605%
+
+#### Retrograde Disc  
+![Retrograde accretion rate graph for 2 million particles](../Week4/Retrograde_resol2mill/Accretion_rate_across_time_Ret_resol2mill.png)  
+Same trend as the 1 million resolution graph so not much more information from this graph.  
+The percentage of mass from the disc at the last timestep is as follows:  
+* Primary accreted mass:35.86545%  
+* Secondary accreted mass:64.12035%  
+* Expelled mass: 0.0142%  
 
 ## Surface Density  
 The surface density graphs are struggling due to my beta value being greater than my initial separation. This is because of a unit error I believe and unsure how to fix it.  
