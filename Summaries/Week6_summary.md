@@ -44,3 +44,9 @@ This is the accretion rate with a decreased time. As we can see, it worked. This
  From now on I will simulate from this point. $a_0=4.175$ and $R_{out} = 3.604$ I found these numbers using the Peters 1964 separation rate wrt time.  
  (Data for $\alpha_{SS}=0.005$ still has 10000 time code units)  
  
+### $\alpha_{SS}=0.005$
+Data found with with 500000 particles. No apparent snowplough. Normal trend compared to the 0.01 and 0.02, just more noise. Here is the graph:  
+![Accretion rate of the black holes with alpha being 0.005](../Week6/alpha_0.005/Accretion_rate_across_time_alpha_0.005.png)  
+No snowplough effect. My scaling length is quite large and therefore maybe that's why this didn't work.  
+* Going to run a simulation with the same parameters, except the resolution is now increased to 1 million.
+* Still waiting for the sim of a normal parameter, except now with the $R_{out}$ is equal to its correct Schwarzschild radius.
