@@ -10,4 +10,9 @@ look again at all data? However, with this data I have had more noise than ever 
 This is the data for when N=100. Where N is the number of datapoints skipped before plotting. There is not much when it comes to seeing an accretion rate trend for the primary black hole.  
 The trend can be seen when I consider even less datapoints. Should I be doing this though? Here are the results nonetheless:  
 ![Accretion rate graph for when R2 is real and less noise for the primary sink particle points](../Week6/R2_real/Accretion_rate_across_time_R2_real_N_1000.png)  
-The trend looks better here. However, as less data points not entirely real. Secondary data points did not change and I don't believe the accretion rate of the secondary ever becomes greater than the primary. Thsi can be shown with the total mass accreted graph.
+The trend looks better here. However, as less data points not entirely real. Secondary data points did not change and I don't believe the accretion rate of the secondary ever becomes greater than the primary. Thsi can be shown with the total mass accreted graph.  
+Here is the graph for that:  
+![Cumulated accreted mass across time for when R2 is real](../Week6/R2_real/Accreted_mass_across_time_R2_real.png)  
+There is no point in this data where the gradient of the secondary is greater than the primary. As this data considers every data point, we can assume this is real and the trend is only correct for initial time points. However, we are more interested in the end so how do we fix? Though it is still obvious that there is no apparent snowplough effect in this simulation.  
+
+Still currently simulating $\alpha=0.005$ for when the resolution is 1 million, however results will be done soon. 10/03/2026
