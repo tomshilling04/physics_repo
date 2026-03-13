@@ -22,16 +22,16 @@ def percentagemass(filename,Mdisc):
     file = np.loadtxt(filename)
     mass_acc1 = file[:,20]
     mass_acc2 = file[:,21]
-    finalmacc1 = mass_acc1[len(mass_acc1)-1] * 100  #Removed the colon and then that returned a float as this is no longer a slice
-    finalmacc2 = mass_acc2[len(mass_acc2)-1] * 100
-    totalmass = discmass(filename,Mdisc)[len(mass_acc1)-1] * 100
+    finalmacc1 = mass_acc1[len(mass_acc1)-1] * (100/Mdisc)  #Removed the colon and then that returned a float as this is no longer a slice
+    finalmacc2 = mass_acc2[len(mass_acc2)-1] * (100/Mdisc)
+    totalmass = discmass(filename,Mdisc)[len(mass_acc1)-1] * (100/Mdisc)
     
     return finalmacc1, finalmacc2, totalmass
-file = "C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week4/Ret_resol1mill/gwdisc01_ret1mill.ev"
-percentmacc1 = percentagemass(file,1)[0]
+file = "C:/Users/tomsh/OneDrive - University of Leeds/year 4/Accretion disc/Semester 2/Week6/alpha_0.005_resol1mill/gwdisc01_al005r1mill.ev"
+percentmacc1 = percentagemass(file,0.1)[0]
 
-percentmacc2 = percentagemass(file,1)[1]
-percentdisc = percentagemass(file,1)[2]
+percentmacc2 = percentagemass(file,0.1)[1]
+percentdisc = percentagemass(file,0.1)[2]
 
 
 
