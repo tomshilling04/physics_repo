@@ -28,9 +28,9 @@ With this effect shown, sims need to be ran to see what it looks like with the a
 
 ### $\alpha_{SS}=0.1$ with resolution of 1 million  
 
-This only took a night to run but it didn't show anything useful. This was only done for the story of the thesis.  
+This only took a night to run but it didn't show anything useful. This was only done for the story of the thesis, and to show the affect of lower visc.  
 ![Accretion rate when $\alpha_{SS}=0.1$ and resolution of 1 million](../Week7/alpha1/Accretion_rate_across_time_alpha_0.1_resol1mill.png)  
-This shows that the snowplough effect is not in effect at all here. In fact, no material is pushed towards the primary and neither SMBHs accrete matter after the initial spike, which should not be considered in data as that is only representing the simulation starting. All matter is pushed away by the secondary via horseshoe orbits expressed in Cerioli et al. (2016) paper.  
+This shows that the snowplough effect is not in effect at all here. In fact, no material is pushed towards the primary and neither SMBHs accrete matter after the initial spike, which should not be considered in data as that is only representing the simulation starting. All matter is pushed away by the secondary via horseshoe orbits expressed in Cerioli et al. (2016) paper (guess).  
 
 Currently waiting for 4 other simulations.  
 * Running $\alpha_{SS}=0.005$ with a resolution of 2 million particles in the disc. This hopefully means an even sharper snowplough effect.
@@ -39,4 +39,11 @@ Currently waiting for 4 other simulations.
 ## Plans for the Weekend  
 * Read about the common $\alpha_{SS}$ within a disc and make a comment on this in your thesis (unsure of what section)
 * Look at common aspect ratios as well
-* Write and finish your numerical methods section of the write up of the thesis.
+* Write your numerical methods section of the write up of the thesis.
+
+## Meeting  
+* What section should I include artificial viscosity (maybe show structure)
+* What figures should be shown (mostly results but also in all sections as it will help me)
+* Do I mention what I make of the results in the results section or do I only leave that for analysis?
+* Unsure how the story should go in results
+* Also how many parameters should I mention (for example disc mass is normalised and therefore I don't think I need it
