@@ -1,0 +1,32 @@
+Thesis improvements
+Include what is wrong with research in the first paragraph/ what I want to do with this information. 
+All other information can come later. Identify the gap later in the introduction and then say what you are going to do about it. 
+Refer to the marking criteria
+Presentation on thesis will have links needed/helpful for this thesis writeup
+
+Structure of introduction!
+Tell the story, what is useful about merging SMBHs? Tools after?
+Then definitions! (SMBHs, accretion discs, GWs)
+Maybe less definitions so I can actually describe some art. visc. parameters so the aims can be described more.
+Now what are we looking at? What is incorrect about it? Now claim what I am looking at to do with it!
+Look at the dissertation examples given in the lecture.
+
+Do I need a background physics? I think so or else where do I show my decoupling sep and stuff like that
+
+
+Results
+Do not try to tell what a graph means. Just say what it shows (peak in this area, trend in this)
+This means don't try and interpret it until we are discussing the results
+
+Discussion 
+Manchester Phrasebank - bank of phrases needed in scientific papers (Useful) (Don't need a reference for this)
+Cautious language in discussion
+Compare the results with the context of previous findings, eg Cerioli et al. in my instance
+Be critical, don't be descriptive
+
+Conclusion
+Manchester ""
+Restate the aim 
+Summarise findings
+Significance
+Recommendations of further research
