@@ -72,10 +72,10 @@ def GW_timescale(a,mass,q):
 M1 = 1
 M2 = 10**(-3)
 HR = 0.01
-alpha = 0.001
+alpha = 0.005
 a = 4.75 #code units for seperation
-R_p_in = 3*M1
-R_s_in = 3*M2
+R_p_in = 2*M1
+R_s_in = 2*M2
 
 
 dataset = {
@@ -101,9 +101,9 @@ sep = np.arange(1,200)
 
 plt.plot(sep, visc_timescale(alpha, HR,M1,sep) ,color='red',label = 'Viscous timescale')
 plt.plot(sep, GW_timescale(sep,M1,massratio(M1,M2)), color = 'green', label = 'GW timescale')
-plt.xlim(200,20)
-plt.ylabel("timescale")
-plt.xlabel("seperation (GM/$c^2$)")
+plt.xlim(200,0)
+plt.ylabel("timescale (s)")
+plt.xlabel("seperation ($GM_{p}/c^2$)")
 plt.legend()
-plt.savefig("Decoupling_Sep.png")
+plt.savefig("Decoupling_Sep_al005.png")
 plt.show()
