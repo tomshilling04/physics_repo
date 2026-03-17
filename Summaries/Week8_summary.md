@@ -12,5 +12,8 @@ Still waiting for other sims 16/03/2026
 
 ## Decoupling Separation when $\alpha_{SS}=0.005$  
 Having the decoupling sep for when $\alpha_{SS}$ was equal to 0.01 was good for explaining what the value represents. When trying to find the decoupling sep when $\alpha_{SS}=0.005$ the timescales have a weirder relationship. Here is the graph:  
-![Decoupling when alpha is 0.005]()  
-After the decoupling sep, the timescales seem even. I am unsure what to make of this. Ask Chris.  
+![Decoupling when alpha is 0.005](../Decoupling_Sep_al005.png)  
+After the decoupling sep, the timescales seem equal. I am unsure what to make of this. Ask Chris.  
+
+## Resolution of 2 million when $\alpha_{SS}=0.005$  
+
