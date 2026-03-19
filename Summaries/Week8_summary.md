@@ -20,5 +20,13 @@ Cerioli derived their expression from a self gravitating disc model and H/R is n
 ## Resolution of 2 million when $\alpha_{SS}=0.005$  
 This just shows that there is a higher snowplough effect when there are more particles within the disc and the smoothing length is less than the one with less particles.  
 ![Accretion of alpha=0.005 and resol 2 mill](../Week7/alpha_005_resol2mill/Accretion_rate_across_time_alpha_0.005_resol2mill.png)  
-Higher spike of accretion.
+Higher spike of accretion.  
+
+### 19/03/2026  
+Today tried looking at the sigma against radius graph for my $\alpha_{SS}=0.005$. It looked nothing like the graph produced by Cerioli et al. (2016). Peak shifts to the left, good. Not the highest peak just before merger, bad. Not uploading the graph onto git as the graph isn't up to good standard. Needs to be improved before putting it here.  
+
+#### Why did I get these results  
+Obviously uncertain and need to ask my supervisor once he is free. However some theories:  
+* Disc cannot respond fast enough and material is just pushed onto the primary and never settles onto the disc.
+* Unsure of other reasons and really neeed a meeting
 
