@@ -29,4 +29,14 @@ Today tried looking at the sigma against radius graph for my $\alpha_{SS}=0.005$
 Obviously uncertain and need to ask my supervisor once he is free. However some theories:  
 * Disc cannot respond fast enough and material is just pushed onto the primary and never settles onto the disc.
 * Unsure of other reasons and really neeed a meeting
+* It is due to my secondary not accreting as much material as the primary. It is simply pushing the material onto the primary.
+
+## Resolution of 1 million with $\alpha_{SS}=0.005$ 
+
+### 20/03/2026  
+Trying to have a good graph to show the surface density across radius. I will do that but first here are the snapshots of the sim.  
+![Snapshot of sim at different times](../Week7/alpha_0.005_resol1mill/splash_imp.png)  
+This is good I like this. Unsure of how to remove the black background behind the column density but it's fine.  
+
+
 
