@@ -40,3 +40,8 @@ This is good I like this. Unsure of how to remove the black background behind th
 
 
 
+## Questions for meeting  
+* I am trying to plot all resolutions of $\alpha=0.005$ and how do I make the graph look reasonable after changing the separation between the sink particles. How do I fix this?
+* How many words should I have realistically in my methods? (silly question but important)
+* Should I have a background physics? I feel like I should as I have much to say about things that seem important. Or should a lot of it go into my methods and my introduction?
+* How do I write an exectutive summary for people that don't know the subject? I feel like I am giving a lot of background in my actual thesis and therefore feel like I would need it for my exec. but I can't.
